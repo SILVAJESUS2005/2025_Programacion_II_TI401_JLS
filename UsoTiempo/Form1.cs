@@ -41,6 +41,14 @@ namespace UsoTiempo
         private void timer1_Tick(object sender, EventArgs e)
         {
             label1.Text = segundos.ToString();
+            segundos++;
+
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
